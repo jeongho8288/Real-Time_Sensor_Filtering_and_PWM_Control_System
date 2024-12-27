@@ -9,6 +9,18 @@ The robot achieved a record of 21.57 seconds, securing first place in the class.
 <img src="https://github.com/user-attachments/assets/1e478383-bd30-44f2-bc8d-743a14ff60df" alt="Description" style="width: 60%;">
 <hr style="border-top: 3px solid #bbb;">
 
+
+
+## System Architecture
+<img src="https://github.com/user-attachments/assets/6f0f1eaf-5175-4fff-8120-060f5205c805" alt="Description" style="width: 60%;">
+<hr style="border-top: 3px solid #bbb;">
+
+## Sensors Used
+<img src="https://github.com/user-attachments/assets/0c07986e-1012-416b-9ced-7bc3740ee500" alt="Description" style="width: 60%;">
+<hr style="border-top: 3px solid #bbb;">
+
+
+
 ## Robot&Map Images
 
 - For a single horizontal line, the robot is programmed to stop.
