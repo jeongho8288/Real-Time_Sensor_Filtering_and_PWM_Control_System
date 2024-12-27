@@ -11,12 +11,11 @@ The robot achieved a record of 21.57 seconds, securing first place in the class.
 
 
 
-## System Architecture
-<img src="https://github.com/user-attachments/assets/6f0f1eaf-5175-4fff-8120-060f5205c805" alt="Description" style="width: 60%;">
-<hr style="border-top: 3px solid #bbb;">
-
-## Sensors Used
-<img src="https://github.com/user-attachments/assets/0c07986e-1012-416b-9ced-7bc3740ee500" alt="Description" style="width: 60%;">
+## System Architecture & Sensors Used
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/6f0f1eaf-5175-4fff-8120-060f5205c805" alt="Description1" style="width: 40%; height: 250px; margin-right: 2%;">
+  <img src="https://github.com/user-attachments/assets/0c07986e-1012-416b-9ced-7bc3740ee500" alt="Description" alt="Description2" style="width: 40%; height: 250px;">
+</div>
 <hr style="border-top: 3px solid #bbb;">
 
 
