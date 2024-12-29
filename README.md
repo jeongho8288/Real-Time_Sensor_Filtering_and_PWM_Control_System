@@ -55,6 +55,7 @@ Therefore, considering the computational load of the control loop in the code, t
 </div>
 
 
+
 2) Cds sensor -> apply "2nd-Order IIR LPF Filter, Cutoff Frequency = 0.2"  
 To effectively suppress noise and minimize the influence of temporary changes while producing smooth and gradual value variations,  
 a low cutoff frequency was set, and a 2nd-order IIR LPF was chosen.
@@ -63,6 +64,7 @@ a low cutoff frequency was set, and a 2nd-order IIR LPF was chosen.
   <img src="https://github.com/user-attachments/assets/daf04a3d-8a6d-4452-82f9-c67c66098e84" alt="Description1" style="width: 35%; height: 200px; margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/74ecd5cd-4371-44d2-9c7b-50c9a96ab55b" alt="Description2" style="width: 35%; height: 200px; margin-right: 2%;">
 </div>
+
 
 
 3) Thermistor -> apply "MAF (Average of 10 Data Points)"  
@@ -74,6 +76,7 @@ a relatively simple Moving Average Filter (MAF) was chosen, considering the comp
   <img src="https://github.com/user-attachments/assets/301039ba-ca57-480a-adf9-f8892b53103e" alt="Description1" style="width: 35%; height: 200px; margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/9547767f-178a-45c5-a740-d8dabdb2a4a8" alt="Description2" style="width: 35%; height: 200px; margin-right: 2%;">
 </div>
+
 
 
 4) PSD sensor -> apply "2nd-Order IIR LPF Filter, Cutoff Frequency = 3"  
@@ -88,6 +91,7 @@ where the input and output signal values are recursively applied for filtering.
 </div>
 
 
+
 5) Sound sensor -> apply "30th-Order FIR LPF Filter, Cutoff Frequency = 3"  
 For the sound sensor, which generates the most significant noise, a highly effective noise reduction filter was required to obtain accurate values.  
 Since the filtering performance improves as the order of the FIR filter increases, a 30th-order FIR LPF filter was designed and applied.
@@ -96,6 +100,7 @@ Since the filtering performance improves as the order of the FIR filter increase
   <img src="https://github.com/user-attachments/assets/1e1dda14-eb18-4e5f-8391-64ac6eeb2a2d" alt="Description1" style="width: 35%; height: 200px; margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/34689bd5-278f-4475-b311-472a6f8e5b1e" alt="Description2" style="width: 35%; height: 200px; margin-right: 2%;">
 </div>
+
 
 
 6) Rain Detection Sensor -> apply "10th-Order FIR LPF Filter, Cutoff Frequency = 2"  
