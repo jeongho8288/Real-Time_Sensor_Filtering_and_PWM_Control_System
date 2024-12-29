@@ -2,13 +2,13 @@
 
 A smart home was developed to enable convenient and practical living independently by using Atmega128.
 
-It includes six functionalities, such as automatically opening doors, detecting room temperature to operate a fan,
+It includes six functionalities, such as automatically opening doors, detecting room temperature to operate a fan,  
 and adjusting the brightness and color of an LED lamp based on the surrounding environment.
 
-Each operation processes sensor input by filtering and quantifying the values, 
+Each operation processes sensor input by filtering and quantifying the values,  
 enabling precise PWM actions corresponding to the respective sensor readings.
 
-The actions implemented for each sensor are as follows:
+The actions implemented for each sensor are as follows:  
 <img src="https://github.com/user-attachments/assets/f3569603-0330-40da-bb07-b9af23585e0e" alt="Description1" style="width: 60%; height: 350px;">
 <hr style="border-top: 3px solid #bbb;">
 
