@@ -1,54 +1,49 @@
 # Project conducted in Robotics Laboratory 3
-The project was conducted using the DE0 board, and programming was carried out in VHDL using Altera Quartus.
 
-The robot was equipped with 8 IR sensors, but in the actual implementation, 
-only 6 IR sensor data were utilized to compensate for sensor errors and achieve the final implementation.
+A smart home was developed to enable convenient and practical living independently by using Atmega128.
 
-The robot achieved a record of 21.57 seconds, securing first place in the class.
+It includes six functionalities, such as automatically opening doors, detecting room temperature to operate a fan,
+and adjusting the brightness and color of an LED lamp based on the surrounding environment.
 
-<img src="https://github.com/user-attachments/assets/1e478383-bd30-44f2-bc8d-743a14ff60df" alt="Description" style="width: 60%;">
+Each operation processes sensor input by filtering and quantifying the values, 
+enabling precise PWM actions corresponding to the respective sensor readings.
+
+The actions implemented for each sensor are as follows:
+<img src="https://github.com/user-attachments/assets/f3569603-0330-40da-bb07-b9af23585e0e" alt="Description1" style="width: 60%; height: 350px;">
 <hr style="border-top: 3px solid #bbb;">
 
-
-
 ## System Architecture & Sensors Used
+
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <img src="https://github.com/user-attachments/assets/6f0f1eaf-5175-4fff-8120-060f5205c805" alt="Description1" style="width: 40%; height: 250px; margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/0c07986e-1012-416b-9ced-7bc3740ee500" alt="Description" alt="Description2" style="width: 40%; height: 250px;">
 </div>
 <hr style="border-top: 3px solid #bbb;">
 
+## Hardware Images
 
-
-## Robot&Map Images
-
-- For a single horizontal line, the robot is programmed to stop.
-- For two thin horizontal lines, the robot implements a traffic light signal.
-- For two thick horizontal lines, the robot activates an acceleration zone.
 <div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/af79d44b-dcf5-4a49-9904-48fe3d5580b0" alt="Description1" style="width: 30%; height: 200px; margin-right: 2%;">
-  <img src="https://github.com/user-attachments/assets/55896f91-41db-4f25-b69a-6841159d8ef9" alt="Description2" style="width: 30%; height: 200px;">
+  <img src="https://github.com/user-attachments/assets/c7909233-b382-4147-bc1a-8802bd04d2ca" alt="Description1" style="width: 30%; height: 200px; margin-right: 2%;">
+  <img src="https://github.com/user-attachments/assets/c0591b26-37f2-4f97-b80a-e8b3e7575715" alt="Description2" style="width: 30%; height: 200px;">
 </div>
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/user-attachments/assets/4680cdc7-4af4-4007-b154-bf3fa56a96f1" alt="Description1" style="width: 20%; height: 180px; margin-right: 2%;">
-  <img src="https://github.com/user-attachments/assets/91b677ab-0271-45ea-9167-e0a290b641f6" alt="Description2" style="width: 20%; height: 180px; margin-right: 2%;">
-  <img src="https://github.com/user-attachments/assets/61cd6b32-37fb-4d91-9aac-43c0cf3c059e" alt="Description3" style="width: 20%; height: 180px;">
-</div>
+<img src="https://github.com/user-attachments/assets/e9cb752c-fcc2-489c-a148-d3ab53af9464" alt="Description1" style="width: 62%; height: 250px;">
 <hr style="border-top: 3px solid #bbb;">
 
 ## circuit diagram
-sensor
-<div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/ee20c8ae-67f8-4024-8af2-1539c9a86ff0" alt="Description1" style="width: 30%; height: 200px; margin-right: 2%;">
-  <img src="https://github.com/user-attachments/assets/d49f79ce-e576-40b6-acaf-c33a93a22274" alt="Description2" style="width: 30%; height: 200px;">
+
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/user-attachments/assets/4d8ab495-3d44-472a-8ca2-7db1289ccecf" alt="Description1" style="width: 30%; height: 180px; margin-right: 2%;">
+  <img src="https://github.com/user-attachments/assets/73936e29-3da8-41cb-9e17-55d9124fc7e4" alt="Description2" style="width: 30%; height: 180px; margin-right: 2%;">
 </div>
-motor
-<div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/67cdebfb-39a8-4de3-bccf-d878ee270114" alt="Description1" style="width: 30%; height: 200px; margin-right: 2%;">
-  <img src="https://github.com/user-attachments/assets/f49f7ea7-b9e6-47e8-86f6-542e6a35ee61" alt="Description2" style="width: 30%; height: 200px;">
-</div>
+<img src="https://github.com/user-attachments/assets/f8a9f11e-201d-4eac-870c-fdd188be039d" alt="Description2" style="width: 30%; height: 180px;">
 <hr style="border-top: 3px solid #bbb;">
+
+## Sensor Value Filtering
+
+Used Sensors : potentiometor, Photoresistor, Thermistor, PSD sensor, Sound sensor, Rain Detection Sensor
+
+
 
 
 ## Problems Encountered During the Project
