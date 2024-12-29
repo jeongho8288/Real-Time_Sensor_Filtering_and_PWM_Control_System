@@ -41,7 +41,9 @@ The actions implemented for each sensor are as follows:
 
 ## Sensor Value Filtering
 
-Used Sensors : potentiometor, Photoresistor, Thermistor, PSD sensor, Sound sensor, Rain Detection Sensor
+Used Sensors : Potentiometor, Photoresistor, Thermistor, PSD sensor, Sound sensor, Rain Detection Sensor
+
+1) Potentiometor
 
 
 
