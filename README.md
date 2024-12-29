@@ -53,9 +53,7 @@ Therefore, considering the computational load of the control loop in the code, t
   <img src="https://github.com/user-attachments/assets/6880ad8f-a5ef-4ff4-a84a-2b72ef5e1f12" alt="Description1" style="width: 35%; height: 200px; margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/1d0d605c-8416-4022-80fb-b39ae514cc4c" alt="Description2" style="width: 35%; height: 200px; margin-right: 2%;">
 </div>
-
-
-
+<br><br>
 2) Cds sensor -> apply "2nd-Order IIR LPF Filter, Cutoff Frequency = 0.2"  
 To effectively suppress noise and minimize the influence of temporary changes while producing smooth and gradual value variations,  
 a low cutoff frequency was set, and a 2nd-order IIR LPF was chosen.
@@ -64,9 +62,7 @@ a low cutoff frequency was set, and a 2nd-order IIR LPF was chosen.
   <img src="https://github.com/user-attachments/assets/daf04a3d-8a6d-4452-82f9-c67c66098e84" alt="Description1" style="width: 35%; height: 200px; margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/74ecd5cd-4371-44d2-9c7b-50c9a96ab55b" alt="Description2" style="width: 35%; height: 200px; margin-right: 2%;">
 </div>
-
-
-
+<br><br>
 3) Thermistor -> apply "MAF (Average of 10 Data Points)"  
 For the thermistor sensor, the ADC values received via UART revealed that the resistance change was very small,  
 confirming that the sensor's inherent noise was minimal. Since the performance difference between filters was negligible,  
@@ -76,9 +72,7 @@ a relatively simple Moving Average Filter (MAF) was chosen, considering the comp
   <img src="https://github.com/user-attachments/assets/301039ba-ca57-480a-adf9-f8892b53103e" alt="Description1" style="width: 35%; height: 200px; margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/9547767f-178a-45c5-a740-d8dabdb2a4a8" alt="Description2" style="width: 35%; height: 200px; margin-right: 2%;">
 </div>
-
-
-
+<br><br>
 4) PSD sensor -> apply "2nd-Order IIR LPF Filter, Cutoff Frequency = 3"  
 By receiving the ADC values of the PSD sensor via UART and analyzing them through a graph,  
 it was observed that due to the fast response characteristics of the component, significant periodic noise occurred momentarily.  
@@ -89,9 +83,7 @@ where the input and output signal values are recursively applied for filtering.
   <img src="https://github.com/user-attachments/assets/eb330765-76a2-449c-8851-fe81db8104e7" alt="Description1" style="width: 35%; height: 200px; margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/659ce08f-7cfd-4e4a-afee-0238f8e18cd7" alt="Description2" style="width: 35%; height: 200px; margin-right: 2%;">
 </div>
-
-
-
+<br><br>
 5) Sound sensor -> apply "30th-Order FIR LPF Filter, Cutoff Frequency = 3"  
 For the sound sensor, which generates the most significant noise, a highly effective noise reduction filter was required to obtain accurate values.  
 Since the filtering performance improves as the order of the FIR filter increases, a 30th-order FIR LPF filter was designed and applied.
@@ -100,9 +92,7 @@ Since the filtering performance improves as the order of the FIR filter increase
   <img src="https://github.com/user-attachments/assets/1e1dda14-eb18-4e5f-8391-64ac6eeb2a2d" alt="Description1" style="width: 35%; height: 200px; margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/34689bd5-278f-4475-b311-472a6f8e5b1e" alt="Description2" style="width: 35%; height: 200px; margin-right: 2%;">
 </div>
-
-
-
+<br><br>
 6) Rain Detection Sensor -> apply "10th-Order FIR LPF Filter, Cutoff Frequency = 2"  
 An open-loop FIR LPF filter was used, designed to preserve the waveform shape between the input and output to a reasonable extent.  
 When configured as a 10th-order filter, it achieved the desired level of filtering effectively, leading to the selection of the 10th-order FIR LPF filter.
