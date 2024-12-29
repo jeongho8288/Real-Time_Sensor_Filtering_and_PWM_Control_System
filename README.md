@@ -89,7 +89,7 @@ where the input and output signal values are recursively applied for filtering.
 <br><br>
 
 5) Sound sensor -> apply "30th-Order FIR LPF Filter, Cutoff Frequency = 3"  
-For the sound sensor, which generates the most significant noise, a highly effective noise reduction filter was required to obtain accurate values.  
+For the sound sensor, which generates the most significant noise, a highly effective noise reduction filter was required to obtain accurate values. 
 Since the filtering performance improves as the order of the FIR filter increases, a 30th-order FIR LPF filter was designed and applied.  
 
 <div style="display: flex; justify-content: space-around;">
@@ -110,11 +110,10 @@ When configured as a 10th-order filter, it achieved the desired level of filteri
 
 ## Problems Encountered During the Project
 
-The control cycle of the overall periodic control timer was set to 10ms for sampling. However, when receiving the values via UART0 communication and checking the log files,  
+The control cycle of the overall periodic control timer was set to 10ms for sampling. However, when receiving the values via UART0 communication and checking the log files, 
 there were slight discrepancies between the number of samples and the elapsed time. This was assumed to be due to the limitations of processing speed in the code and the communication speed.
 
-Additionally, issues such as missing or fluctuating sensor values were resolved by referring to the Atmega128 datasheet to adjust pin configurations and debugging through UART0 communication,  
-making incremental modifications to the code.
+Additionally, issues such as missing or fluctuating sensor values were resolved by referring to the Atmega128 datasheet to adjust pin configurations and debugging through UART0 communication, making incremental modifications to the code.
 
 
 
