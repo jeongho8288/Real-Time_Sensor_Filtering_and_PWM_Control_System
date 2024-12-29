@@ -9,7 +9,7 @@ Each operation processes sensor input by filtering and quantifying the values,
 enabling precise PWM actions corresponding to the respective sensor readings.
 
 The actions implemented for each sensor are as follows:  
-<img src="https://github.com/user-attachments/assets/f3569603-0330-40da-bb07-b9af23585e0e" alt="Description1" style="width: 60%; height: 350px;">
+<img src="https://github.com/user-attachments/assets/f3569603-0330-40da-bb07-b9af23585e0e" alt="Description1" style="width: 50%; height: 500px;">
 <hr style="border-top: 3px solid #bbb;">
 
 ## System Architecture & Sensors Used
