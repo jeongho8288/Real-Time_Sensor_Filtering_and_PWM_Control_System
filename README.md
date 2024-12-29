@@ -33,10 +33,10 @@ The actions implemented for each sensor are as follows:
 ## circuit diagram
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/user-attachments/assets/4d8ab495-3d44-472a-8ca2-7db1289ccecf" alt="Description1" style="width: 30%; height: 180px; margin-right: 2%;">
-  <img src="https://github.com/user-attachments/assets/73936e29-3da8-41cb-9e17-55d9124fc7e4" alt="Description2" style="width: 30%; height: 180px; margin-right: 2%;">
+  <img src="https://github.com/user-attachments/assets/4d8ab495-3d44-472a-8ca2-7db1289ccecf" alt="Description1" style="width: 45%; height: 250px; margin-right: 2%;">
+  <img src="https://github.com/user-attachments/assets/73936e29-3da8-41cb-9e17-55d9124fc7e4" alt="Description2" style="width: 45%; height: 250px; margin-right: 2%;">
 </div>
-<img src="https://github.com/user-attachments/assets/f8a9f11e-201d-4eac-870c-fdd188be039d" alt="Description2" style="width: 30%; height: 180px;">
+<img src="https://github.com/user-attachments/assets/f8a9f11e-201d-4eac-870c-fdd188be039d" alt="Description2" style="width: 45%; height: 250px;">
 <hr style="border-top: 3px solid #bbb;">
 
 ## Sensor Value Filtering
