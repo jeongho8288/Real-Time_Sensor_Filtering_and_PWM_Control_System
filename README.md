@@ -89,7 +89,7 @@ where the input and output signal values are recursively applied for filtering.
 <br><br>
 
 5) Sound sensor -> apply "30th-Order FIR LPF Filter, Cutoff Frequency = 3"  
-For the sound sensor, which generates the most significant noise, a highly effective noise reduction filter was required to obtain accurate values. 
+For the sound sensor, which generates the most significant noise, a highly effective noise reduction filter was required to obtain accurate values.  
 Since the filtering performance improves as the order of the FIR filter increases, a 30th-order FIR LPF filter was designed and applied.  
 
 <div style="display: flex; justify-content: space-around;">
